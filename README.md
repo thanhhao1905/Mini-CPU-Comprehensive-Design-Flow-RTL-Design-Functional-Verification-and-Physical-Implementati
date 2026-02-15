@@ -207,12 +207,15 @@ To prepare for manufacturing, the design must be converted from a positional des
 - **Tool used:** Magic VLSI Layout Tool
 - **Implementation process:**
   - **Import DEF file:** Using Tcl commands within Magic, the DEF file from OpenROAD is read along with the corresponding technology library.
+  
+ <img width="1257" height="273" alt="image" src="https://github.com/user-attachments/assets/588ffef3-7c9d-463b-a84c-19e014cc2700" />
+ 
   - **Layout inspection and editing (if needed):** Magic allows viewing and manual editing of the layout to ensure no geometric violations exist.
   - **Export GDS file:** Using the command `gds write mini_cpu.gds` to generate a GDSII file – the industry-standard format containing all physical parameters (diffusion layers, polysilicon, metal layers) required by the foundry.
  
-  <img width="1838" height="825" alt="image" src="https://github.com/user-attachments/assets/963a111b-c157-4de8-9194-7b81958655ae" />
-
-  <img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/d30723c2-95bd-46e1-a97c-cde8fdba00ce" />
+ <img width="1838" height="825" alt="image" src="https://github.com/user-attachments/assets/963a111b-c157-4de8-9194-7b81958655ae" />
+ 
+ <img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/d30723c2-95bd-46e1-a97c-cde8fdba00ce" />
 
 
 
@@ -224,6 +227,9 @@ Before proceeding to "Tape-out" – sending the design for fabrication – a fin
 - **Role:**
   - **Detailed layout viewing:** KLayout provides the ability to display different color-coded layers, allowing zooming, panning, and precise measurements on the layout.
   - **Visual inspection:** Engineers can easily identify potential issues such as layer overlaps, insufficient spacing between paths, or connectivity problems.
+
+<img width="1255" height="271" alt="image" src="https://github.com/user-attachments/assets/3de1619b-b72c-4188-acde-07b99e6e74fa" />
+
 - **Final result:** A complete Mini CPU layout, verified and ready for the **Tape-out** stage – the final step before mass production.
 
   <img width="1852" height="895" alt="image" src="https://github.com/user-attachments/assets/1b817070-9c2d-4817-9f2b-3c759e5a7cae" />
