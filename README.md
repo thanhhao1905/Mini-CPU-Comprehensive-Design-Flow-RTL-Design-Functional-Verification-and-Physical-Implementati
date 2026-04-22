@@ -215,8 +215,7 @@ To prepare for manufacturing, the design must be converted from a positional des
  
  <img width="1838" height="825" alt="image" src="https://github.com/user-attachments/assets/963a111b-c157-4de8-9194-7b81958655ae" />
  
- <img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/d30723c2-95bd-46e1-a97c-cde8fdba00ce" />
-
+<img width="1850" height="897" alt="image" src="https://github.com/user-attachments/assets/12ae6d49-a02c-4a1b-9937-4b69ecb7d13a" />
 
 
 ### 7.4. Layout Verification and Visualization with KLayout
